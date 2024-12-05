@@ -1,0 +1,151 @@
+<!-- Lesson Goals
+1 - Duplicate HTML Pages
+2 - Remove Default Styling from List
+3 - Make Nav Bar Horizontal 
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Unit 5 - Nav Bar</title>
+    <style>
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+            }
+            li {
+              display: inline;
+            }
+            li {
+              float: left;
+            }
+
+            a {
+              display: block;
+              padding: 8px;
+              background-color: blue;
+
+            }
+            ul {
+              background-color: lightblue;
+            }
+            ul {
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              overflow: hidden;
+              background-color: #333;
+            }
+
+            li {
+              float: left;
+            }
+
+            li a {
+              display: block;
+              background-color: lightpink;
+              color: white;
+              text-align: center;
+              padding: 14px;
+              text-decoration: none;
+            }
+
+            /* Change the link color to #111 (black) on hover */
+            li a:hover {
+              background-color: lightblue;
+            }
+            .active {
+              background-color: lightblue;
+            }
+       
+            /* Add a gray right border to all list items, except the last item (last-child) */
+      li {
+              border-right: 1px solid #bbb;
+            }
+
+            li:last-child {
+              border-right: none;
+            }
+            ul {
+              position: fixed;
+              top: 0;
+              width: 100%;
+            }
+            ul {
+              position: fixed;
+              bottom: 0;
+              width: 100%;
+            }
+            ul {
+              border: 1px solid #e7e7e7;
+              background-color: #ffffff;
+            }
+
+            li a {
+              color: #666;
+            }
+            ul {
+              position: -webkit-sticky;
+              position: sticky;
+              top: 0;
+            }
+            .first-sentence {
+              font-style: italic;
+            }
+            .photo {
+        width: 200px;
+        margin: 20px;
+        border: 10px solid lightblue;
+        padding: 6px;
+      }
+      .Fifi {
+        background: pink;
+        width: 100%;
+        hight: 200px;
+        overflow: auto;
+        font-family:monospace;
+        font-size:17px  
+      }
+      .photo {
+        width: 50%;
+      }
+          .heading {
+      font-family:monospace;
+      font-size:40px;
+      color:pink
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="index.html">FiFi's World</a></li>
+      <li><a href="warmestspot.html">Warmest Spot</a></li>
+      <li><a href="bathtime.html">Bath Time</a></li>
+      <li><a href="stylishfur.html">Stylish Fur</a></li>
+    </ul>
+
+    <h1 class="heading">Funny Picture</h1>
+       <img
+        class="photo"
+        src="https://cdn.glitch.global/6810118a-948b-4501-9b3c-ff328e71ee67/IMG_2210.jpeg?v=1733418141684"
+      />
+
+      <img
+        class="photo"
+        src="https://cdn.glitch.global/6810118a-948b-4501-9b3c-ff328e71ee67/IMG_2245.jpeg?v=1733418171073"
+      />
+    
+    
+    <div class="Fifi">
+      <p>
+        Even the most beautiful cats have their off moments, and FiFi is no exception! 
+        There’s one photo we always laugh at—her "ugly" picture. Her fur is messy, eyes half-closed,
+        and she looks pretty funny. But we love it because it shows her real side. Even when she’s not
+        looking her best, she’s still our sweetest, most lovable cat!
+      </p>
+    </div>
+    
+  </body>
+</html>
